@@ -1,0 +1,277 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+*{
+  margin: 0 0;
+  font-family: 'Heebo', sans-serif;
+}
+.cabecalho{
+  padding: 3vh;
+  height: 8vh; 
+  display: flex; 
+  box-shadow: 0 0 5vh rgba(45, 44, 44, 0.214);
+}
+.logo-makan {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.Makaan{
+  padding-left: 1.5vh;
+  color: #00b98e;
+  font-size: 7vh;
+}
+.bola{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 7vh;
+  height: 8vh;
+  border: 0.4vh dashed #00b98e; 
+}
+.icon-logo{
+  display: flex;
+  padding-top: 1.4vh;
+  width: 5vh;
+  height: 5vh;
+}
+.menu, ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  padding-right: 3vh;
+  gap: 35px;
+}
+a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a:hover{
+  color: #00b98e;
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.casa{
+  padding-right: 0.2vh;
+  height: 79vh;
+  width: 100vh;
+}
+.text1{
+  font-size: 8vh;
+  font-weight: bolder;
+}
+.textbox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 9vh;
+}
+.paragrafo{
+  padding-top: 4vh;
+  color: gray;
+  text-align: justify;
+}
+.getStarted{
+  height: 8vh;
+  width: 25vh;
+  background-color: #00b98e;
+  color: #effdf5;
+  border: none;
+  font-size: medium;
+  border-radius: 5px;
+}
+.getStarted:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.boxstart{
+  padding-top: 5vh;
+}
+
+
+.ProTypes {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1Cabeca {
+  padding-bottom: 2.5vh;
+  font-size: xx-large;
+}
+.pCabeca {
+  color: gray;
+  font-size: small;
+  text-align: center;
+  width: 90vh;
+}
+
+
+.blocos-icon{
+  padding-top: 5vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  display: flex;
+  justify-content: space-between; 
+}
+.bloco1{
+  border: solid 2vh #00b98e1f;
+  text-align: center;
+  border-radius: 3%;
+  width: 30vh;
+  height: 100%;
+}
+.icon1{
+  padding-top: 5vh;
+  padding-bottom: 8vh;
+  border: solid 1px var(--primary);
+}
+.bloco2{
+  border: solid 2vh #00b98e1f;
+  text-align: center;
+  border-radius: 3%;
+  width: 30vh;
+  height: 100%;
+}
+.icon2{
+  padding-top: 5vh;
+  padding-bottom: 8vh;
+  border: solid 1px var(--primary);
+}
+.bloco3{
+  border: solid 2vh #00b98e1f;
+  text-align: center;
+  border-radius: 3%;
+  width: 30vh;
+  height: 100%;
+}
+.icon3{
+  padding-top: 5vh;
+  padding-bottom: 8vh;
+  border: solid 1px var(--primary);
+}
+.bloco4{
+  border-radius: 3%;
+  border: solid 2vh #00b98e1f;
+  text-align: center;
+  width: 30vh;
+  height: 100%;
+}
+.icon4{
+  padding-top: 5vh;
+  padding-bottom: 8vh;
+  border: solid 1px var(--primary);
+}
+
+.section2{
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  gap: 25px;
+}
+.casa1:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.casa2:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.casa3:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.casa1, .casa2, .casa3{
+  border-radius: 5%;
+  width: 40vh;
+  height: 45vh;
+  box-shadow: 0 0 5vh rgba(45, 44, 44, 0.222);
+}
+.img1, .img2, .img3{
+  width: 40vh;
+  border-radius: 3% 3% 0% 0%;
+  background-color: #effdf5;
+}
+.casa-text{
+  padding: 2vh;
+  line-height: 2;
+  font-weight: bold;
+}
+.button-browse{
+  display: flex;
+  justify-content: center;
+  padding: 3vh;
+}
+.browse{
+  width: 30vh;
+  height: 7vh;
+  background-color: #00b98e;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.browse:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.forms{
+  display: inline-block;
+  text-align: center;
+  border: none;
+  padding: 1vh;
+  
+}
+.size1{
+  width: 95vh;
+  height: 5vh;
+  margin: 0.7vh;
+  border-radius: 5px;
+  border: solid 1px rgba(128, 128, 128, 0.541);
+  
+}
+.size2{
+  width: 192.6vh;
+  height: 5vh;
+  margin: 0.7vh;
+  border-radius: 5px;
+  border: solid 1px rgba(128, 128, 128, 0.541);
+}
+.size3{
+  width: 193.3vh;
+  height: 5vh;
+  border-radius: 5px;
+  margin: 0.7vh;
+  background-color: #00b98e;
+  color: white;
+  border: solid 1px rgba(128, 128, 128, 0.541);
+}
+.size3:hover{
+  opacity: 0.5;
+}
+.size4{
+  width: 192.6vh;
+  height: 15vh;
+  margin: 0.7vh;
+  border-radius: 5px;
+  border: solid 1px rgba(128, 128, 128, 0.541);
+}
+
+
+
+

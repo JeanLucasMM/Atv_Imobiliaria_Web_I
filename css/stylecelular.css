@@ -1,0 +1,248 @@
+@media (max-width: 768px) {
+    .cabecalho {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: 100%;
+      padding: 3vh;
+      box-shadow: 0 0 5vh rgba(45, 44, 44, 0.214);
+    }
+    
+    .logo-makan {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    
+    .Makaan {
+      padding-left: 1.5vh;
+      color: #00b98e;
+      font-size: 5vh;
+    }
+    
+    .bola {
+      display: flex;
+      justify-content: center;
+      border-radius: 50%;
+      width: 10%;
+      border: 0.4vh dashed #00b98e;
+      margin-top: 2vh;
+    }
+    
+    .icon-logo {
+      padding-left: 1.4vh;
+      margin-right: 1vh;
+    }
+    
+    .menu,ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      list-style-type: none;
+      gap: 15px;
+    }
+    
+    .menu a {
+      margin-bottom: 1vh;
+    }
+    
+    .container1 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .casa {
+      padding-right: 0.2vh;
+      height: auto;
+      width: 95%;
+    }
+  
+    .text1 {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      font-size: 4vh; 
+      font-weight: bolder;
+      text-align: center;
+    }
+  
+    .textbox {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding: 2vh; 
+    }
+  
+    .paragrafo {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-top: 2vh;
+      color: gray;
+    }
+  
+    .getStarted {
+      height: 8vh;
+      width: 80%;
+      max-width: none;
+      background-color: #00b98e;
+      color: #effdf5;
+      border: none;
+      font-size: medium;
+      border-radius: 5px;
+      margin-top: 2vh;
+    }
+  
+    .boxstart {
+      padding-top: 3vh; 
+    }
+  
+    .ProTypes {
+      padding-top: 3vh; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .h1Cabeca {
+      padding-bottom: 1.5vh; 
+      font-size: x-large; 
+    }
+  
+    .pCabeca {
+      color: gray;
+      font-size: small;
+      text-align: center;
+      width: 80vw; 
+    }
+  
+    .blocos-icon {
+      padding-top: 3vh;
+      padding-left: 2vh; 
+      padding-right: 2vh; 
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+    }
+  
+    .bloco1,
+    .bloco2,
+    .bloco3,
+    .bloco4 {
+      display: flex;
+      border: solid 2vh #00b98e1f;
+      flex-direction: column;
+      border-radius: 3%;
+      width: 95%; 
+      margin-bottom: 2vh; 
+    }
+  
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4 {
+      padding-top: 3vh;
+      padding-bottom: 5vh; 
+      border: solid 1px var(--primary);
+    }
+  
+    .section2 {
+      padding-top: 3vh; 
+      gap: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .casa1:hover,
+    .casa2:hover,
+    .casa3:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  
+    .casa1,
+    .casa2,
+    .casa3 {
+      border-radius: 5%;
+      height: auto; 
+      box-shadow: 0 0 5vh rgba(45, 44, 44, 0.222);
+      margin-bottom: 2vh;
+    }
+  
+    .img1,
+    .img2,
+    .img3 {
+      width: 100%; 
+      border-radius: 3% 3% 0% 0%;
+      background-color: #effdf5;
+    }
+  
+    .casa-text {
+      padding: 1vh; 
+      line-height: 1.5;
+      font-weight: bold;
+    }
+  
+    .button-browse {
+      display: flex;
+      justify-content: center;
+      padding: 2vh; 
+    }
+  
+    .browse {
+      width: 80%; 
+      height: 7vh;
+      background-color: #00b98e;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      font-weight: bold;
+    }
+  
+    .browse:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  
+    .forms {
+      display: inline-block;
+      text-align: center;
+      border: none;
+      padding: 1vh;
+    }
+  
+    .size1 {
+      width: 90%; 
+      height: 5vh;
+      margin: 0.7vh;
+      border-radius: 5px;
+      border: solid 1px rgba(128, 128, 128, 0.541);
+    }
+  
+    .size2,
+    .size4 {
+      width: 90%; 
+      height: 15vh; 
+      margin: 0.7vh;
+      border-radius: 5px;
+      border: solid 1px rgba(128, 128, 128, 0.541);
+    }
+  
+    .size3 {
+      width: 90%; 
+      height: 7vh; 
+      border-radius: 5px;
+      margin: 0.7vh;
+      background-color: #00b98e;
+      color: white;
+      border: solid 1px rgba(128, 128, 128, 0.541);
+    }
+  
+    .size3:hover {
+      opacity: 0.5;
+    }
+  }
